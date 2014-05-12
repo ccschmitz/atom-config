@@ -1,0 +1,22 @@
+'editor':
+  'fontSize': 14
+  'fontFamily': 'Source Code Pro'
+  'showIndentGuide': true
+  'showInvisibles': true
+'core':
+  'themes': [
+    'spacegray-dark-ui'
+    'tomorrow-night-eighties'
+  ]
+  'useReactEditor': true
+  'destroyEmptyPanes': false
+'exception-reporting':
+  'userId': '4466eee7-fb73-b45d-6b6e-28f8483fbc53'
+'release-notes':
+  'viewedVersion': '0.94.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '59f748f6c9b190ed4eb4d415cd6f315edd0b5620'
+'scope-inspector':
+  'userId': '59f748f6c9b190ed4eb4d415cd6f315edd0b5620'

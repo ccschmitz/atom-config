@@ -1,0 +1,33 @@
+{
+  "name": "gulp-helper",
+  "main": "./lib/gulp-helper",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Runs gulp watch on your project directory and displays the output!",
+  "activationEvents": [
+    "gulp-helper:toggle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenwheeler/gulp-helper"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "ansi-to-html": "~0.1.1"
+  },
+  "readme": "# gulp-helper package\n\nThis package runs gulp watch on your current directory and shows an output panel.\n\n####Activate with `ctrl-opt-g`\n\n####Install with `apm install gulp-helper`\n\nPreview:\n\n![Preview](http://i.imgur.com/eny7WWM.gif)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/kenwheeler/gulp-helper/issues"
+  },
+  "homepage": "https://github.com/kenwheeler/gulp-helper",
+  "_id": "gulp-helper@1.2.0",
+  "dist": {
+    "shasum": "d207525a4a289ddbcfd6b6826ddaa20b62ba3e24"
+  },
+  "_resolved": "/var/folders/m7/g68grz7j6n5gmbf05rzhy5x00000gn/T/d-114412-10021-2tb22b/package.tgz",
+  "_from": "/var/folders/m7/g68grz7j6n5gmbf05rzhy5x00000gn/T/d-114412-10021-2tb22b/package.tgz"
+}

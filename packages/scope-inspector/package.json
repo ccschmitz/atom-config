@@ -1,0 +1,36 @@
+{
+  "name": "scope-inspector",
+  "main": "./lib/scope-inspector",
+  "version": "0.1.3",
+  "author": {
+    "name": "Tim von Oldenburg",
+    "email": "tim@tvooo.de"
+  },
+  "description": "Inspect and explore JavaScript scope.",
+  "activationEvents": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tvooo/scope-inspector"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.90.0"
+  },
+  "dependencies": {
+    "esprima": "^1.2.1",
+    "lodash": "^2.4.1",
+    "getmac": "^1.0.6"
+  },
+  "readme": "# JavaScript Scope Inspector for Atom\n\nView your JavaScript code from a different perspective. Explore nested scopes and detect variable shadowing and hoisting.\n\n![Scope Inspector](https://raw.githubusercontent.com/tvooo/scope-inspector/master/scope-inspector.gif)\n\n## This is heavy work-in-progress stuff\n\nI'm working on this as part of my Master's thesis project in Interaction Design.\n\nDon't expect it to work perfectly, especially when it comes to parsing and analyzing the scope. This is a proof-of-concept. Please report any bugs and suggestions.\n\n## Install\n\n`$ apm install scope-inspector`\n\n## Default keyboard shortcuts\n\n`ctrl+alt+i` toggles the sidebar\n\n## Metrics & feedback\n\nThis is **disabled** by default.\n\nScope Inspector is a project I'm doing for my thesis in Interaction Design. For my research, I would like to track some usage metrics. *Please enable tracking in the package's settings view*, it will help my work a great deal.\n\nAdditionally, I am happy for any qualitative feedback I get. If you're willing to participate in an interview, please send me [an email](mailto:tim@tvooo.de).\n\nHere's what is going to be tracked:\n\n* Your, userId which is a hash generated through your MAC address. Same as what [Atom's Metrics package](https://github.com/atom/metrics/) does.\n* Plugin is enabled/disabled\n* Sidebar is toggled\n* Button in bottom bar is hovered (scope highlight)\n* Button in bottom bar is clicked (navigate to surrounding scope)\n\n## Features\n\n*\"Current scope\"* - the scope that your cursor is placed in :)\n\n### Inline\n\n#### Highlight current scope\n\n![Highlight current scope](https://raw.githubusercontent.com/tvooo/scope-inspector/master/scope-highlight.png)\n\n#### Indicate hoisted variables\n\n![Indicate hoisted variables](https://raw.githubusercontent.com/tvooo/scope-inspector/master/hoisting.png)\n\n### Scope Inspector (bottom bar)\n\n- Show scope nesting\n- Navigate the scope-ladder upwards\n- Highlight surrounding scopes\n\n### Sidebar\n\n![Sidebar](https://raw.githubusercontent.com/tvooo/scope-inspector/master/sidebar.png)\n\nList parameters, variables and nested functions of the current and all surrounding scopes (closest is on top, furthest [global scope] on the bottom)\n\n#### Indicate if an identifier will be hoisted  \n\n![Hosting indicator](https://raw.githubusercontent.com/tvooo/scope-inspector/master/hoisted.png)\n\n#### Indicate if an identifier shadows another identifier (with the same name, in a surrounding scope)  \n\n![Shadowing](https://raw.githubusercontent.com/tvooo/scope-inspector/master/shadowing.png)\n\n#### Indicate if an identifier is shadowed  \n\n![Shadowed](https://raw.githubusercontent.com/tvooo/scope-inspector/master/shadowed.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/tvooo/scope-inspector/issues"
+  },
+  "homepage": "https://github.com/tvooo/scope-inspector",
+  "_id": "scope-inspector@0.1.3",
+  "dist": {
+    "shasum": "43f7e664fd0ca76698a84b6e2fa1b3bf3d7f4476"
+  },
+  "_resolved": "/var/folders/m7/g68grz7j6n5gmbf05rzhy5x00000gn/T/d-114412-9932-10rthag/package.tgz",
+  "_from": "/var/folders/m7/g68grz7j6n5gmbf05rzhy5x00000gn/T/d-114412-9932-10rthag/package.tgz"
+}
