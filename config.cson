@@ -5,8 +5,8 @@
   'showInvisibles': true
 'core':
   'themes': [
-    'spacegray-dark-ui'
-    'tomorrow-night-eighties'
+    'atom-dark-ui'
+    'solarized-dark-syntax'
   ]
   'useReactEditor': true
   'destroyEmptyPanes': false
